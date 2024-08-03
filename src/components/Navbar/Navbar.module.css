@@ -1,0 +1,84 @@
+/* main container of the navbar */
+.navbar { 
+  background: linear-gradient(to right,#077fce, #4543eb );
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  color: white;
+}
+.appName a:hover {
+  color: white;
+}
+
+.navLinks {
+  float: right;
+}
+.navLinks span {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.navLinks a {
+  color: white;
+}
+.navLinks a:hover {
+  color: black;
+}
+.fa-solid, .fa{
+  font-weight: 900;
+  color: black;
+}
+@media screen and (max-width:960px){
+  .navbar{
+      border-bottom: 1px solid #f7f7f7;
+      display: block !important;
+      padding: 1em;
+  }}
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navleft .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navright {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  .navIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .navText {
+    font-size: 16px;
+  }
+  

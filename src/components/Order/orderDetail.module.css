@@ -1,0 +1,25 @@
+
+/* heading of the page */
+.orderHeading{
+    color:#475d59;
+}
+
+/* table inside the order list */
+table{
+    width: 100%;
+    font-weight: 600;
+    border-collapse: collapse;
+    color:#cb75c8;
+}
+
+/* table's cell style */
+th,td{
+    background-color: #a3c1ff;
+    border:2px solid #d2ebf1d6;
+}
+
+/* table heading color */
+th{
+    color: blueviolet;
+}
+
