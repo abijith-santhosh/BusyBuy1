@@ -1,3 +1,16 @@
+
+# BusyBuy-1
+A E-Commerce Web site build using React js
+
+# Description
+An online store that enables individuals to browse available items, add or remove them from the shopping cart and allows them to purchase them. The users can signup and sigin to the website to add items to the cart and then make the purchase. 
+
+## Technologies Used
+* Front-end: HTML, CSS, JavaScript, React
+* Database: Firebase (Firestore)
+* Authentication : Firebase Authentication
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
